@@ -10,4 +10,19 @@ public class MainController {
     public String mainView(){
         return "main";
     }
+    
+    @RequestMapping("/login")
+    public String loginView(){
+        return "login";
+    }
+
+    @RequestMapping("/qr")
+    public String qrView(){
+        return "qr";
+    }
+
+    @RequestMapping("/payment")
+    public String paymentView(){
+        return "payment";
+    }
 }
