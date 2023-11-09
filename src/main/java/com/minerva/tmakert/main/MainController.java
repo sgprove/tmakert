@@ -25,4 +25,9 @@ public class MainController {
     public String paymentView(){
         return "payment";
     }
+
+    @RequestMapping("/map")
+    public String mapView(){
+        return "map";
+    }
 }
